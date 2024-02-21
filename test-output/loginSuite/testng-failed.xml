@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [loginSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.salesforce.utilities.Listener"/>
+  </listeners>
+  <test thread-count="5" name="loginTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.Test.SalesforceCreateOpportunity">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="testcase17"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesforceCreateOpportunity -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [loginSuite] -->

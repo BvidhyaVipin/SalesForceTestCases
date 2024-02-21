@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesForceSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.salesforce.Test.SalesForceRandomScenerios">
+        <methods>
+          <include name="testcase35"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesForceRandomScenerios -->
+      <class name="com.salesforce.Test.SalesForceDropDownMenu">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="testCase6"/>
+          <include name="aftermethod"/>
+          <include name="testCase7"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesForceDropDownMenu -->
+      <class name="com.salesforce.Test.SalesforceCreateAccount">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="testCase10"/>
+          <include name="testCase11"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesforceCreateAccount -->
+      <class name="com.salesforce.Test.SalesforceLead">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="testCase23"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesforceLead -->
+      <class name="com.salesforce.Test.SalesforceContacts">
+        <methods>
+          <include name="testCase30"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="testCase26"/>
+        </methods>
+      </class> <!-- com.salesforce.Test.SalesforceContacts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SalesForceSuite] -->
